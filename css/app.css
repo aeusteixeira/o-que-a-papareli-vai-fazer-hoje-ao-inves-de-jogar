@@ -1,0 +1,51 @@
+body {
+    background-color: #003366; /* Azul escuro */
+    color: #ffffff; /* Texto branco para contraste com o fundo escuro */
+}
+
+h1, h3, p {
+    color: #ffffff; /* Texto branco */
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Cor do botão azul escuro */
+    border-color: #004494; /* Cor da borda do botão */
+}
+
+.btn-primary:hover {
+    background-color: #004494; /* Cor do botão ao passar o mouse */
+    border-color: #003366; /* Cor da borda do botão ao passar o mouse */
+}
+
+footer {
+    color: #ffffff; /* Texto branco no rodapé */
+}
+
+/* Centralizar o conteúdo principal verticalmente e horizontalmente */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+
+#animacao {
+    display: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+#atividade {
+    font-size: 1.25rem;
+    background: #e9ecef;
+    border-radius: 0.5rem;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
